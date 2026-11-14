@@ -10,6 +10,19 @@
   "lead_image": "/img/funclip-v2-1-0-interface.jpg",
   "articles": [
     {
+      "slug": "wav-pcm-input-checklist",
+      "category": "explanations",
+      "reviewed": true,
+      "zh": {
+        "title": "先检查音频输入：WAV、裸 PCM 与采样率",
+        "summary": "用可直接运行的 PCM16 WAV 检查器核对帧数、时长与峰值，区分文件检查、重采样和真实识别验收。"
+      },
+      "en": {
+        "title": "Check the audio input first: WAV, raw PCM and sample rate",
+        "summary": "Run a PCM16 WAV inspector to verify frames, duration and peak amplitude, while keeping file checks separate from resampling and ASR acceptance."
+      }
+    },
+    {
       "slug": "websocket-offline-model-options",
       "category": "explanations",
       "reviewed": true,
